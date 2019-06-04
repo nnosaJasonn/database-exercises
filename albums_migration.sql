@@ -6,7 +6,7 @@ create table albums (
   artist varchar(255) not null,
   name varchar(255) not null,
   release_date year not null,
-  sales int unsigned not null,
+  sales decimal(3, 1) unsigned not null,
   genre varchar(255) not null,
   primary key (id)
 );

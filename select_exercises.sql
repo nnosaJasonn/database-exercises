@@ -1,0 +1,12 @@
+USE codeup_test_db;
+select 'pink floyd albums:' as 'info';
+select * from albums where artist = 'pink floyd';
+select 'year sgt peppers lonely hearts club band was published:', as 'info';
+select release_date from albums where name = 'sgt. pepper''s lonely hearts club band';
+select 'genre for nevermind:' as 'info';
+select genre from albums where name = 'nevermind';
+select 'albums released in 90''s' as 'info';
+select * from albums where 'release_date' between 1990 AND 1999;
+select 'albums with less than 20 million cert sales' as 'info';
+select * from albums where sales <= 20;
+select * from albums where genre = 'rock';
