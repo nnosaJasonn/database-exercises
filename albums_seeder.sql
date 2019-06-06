@@ -1,6 +1,8 @@
 USE codeup_test_db;
 
+
 truncate albums;
+
 
 insert into albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'thriller', 1982, 47.3, 'pop, rock, r&b'),
@@ -35,3 +37,6 @@ VALUES ('Michael Jackson', 'thriller', 1982, 47.3, 'pop, rock, r&b'),
        ('pink floyd', 'the wall', 1979, 18.7, 'prog rock'),
        ('santana', 'supernatural', 1999, 20.5, 'latin rock'),
        ('guns n'' roses', 'appetite for destruction', 1987, 21.6, 'hard rock');
+
+insert into albums (artist, name, release_date, sales, genre)
+VALUES ('Michael Jackson', 'hahahahaha', 1982, 47.3, 'pop, rock, r&b');

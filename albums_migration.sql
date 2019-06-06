@@ -10,3 +10,6 @@ create table albums (
   genre varchar(255) not null,
   primary key (id)
 );
+
+alter table albums
+add unique(artist, name);
