@@ -80,5 +80,9 @@ from employees
 join salaries on employees.emp_no = salaries.emp_no
 join dept_manager on dept_manager.emp_no = employees.emp_no
 join departments on departments.dept_no = dept_manager.dept_no
-
 group by dept_name;
+
+
+select employees.last_name, t.title
+from employees
+join titles t on employees.emp_no = t.emp_no
