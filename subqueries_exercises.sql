@@ -68,6 +68,11 @@ from users
 join ads on ads.user_id = users.user_id
 where users.username = 'x';
 
+UPDATE students
+SET conversation_access = 0
+WHERE
+
+
 # SELECT dept_name
 # from departments
 # where dept_no in (
